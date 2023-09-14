@@ -1,4 +1,5 @@
 
+
 export function TwitterCard({children,name,userName, initialIsFollowing, imageName}){
 
   return (
@@ -12,10 +13,10 @@ export function TwitterCard({children,name,userName, initialIsFollowing, imageNa
           <strong>{children}</strong>
           <span className="tw-followCard-infoUserName">{userName}</span>
         </div>
-        <aside>
-          <button>Seguir</button>
-        </aside>
       </header>
+      <aside>
+          <button>Seguir</button>
+      </aside>
     </article>
   )
 }
